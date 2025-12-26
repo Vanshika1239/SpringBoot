@@ -1,15 +1,39 @@
-Git Command:
+GIT Command
+----------------
 
-1.git init
-2. git status
-3.git add origin https://github.com/Vanshika1239/SpringBoot.git
-4.git add origin
-5.git remote add origin https://github.com/Vanshika1239/SpringBoot.git
-6.git status
-7.git init
-8.pwd
-9.git init
-10. git add . 
-11 git commit -m "first git"
-12. git branch -M Master
-13. git push -u origin Master
+1️⃣ git init
+
+👉 Initializes a new Git repository in your project folder.
+Creates a hidden .git directory that tracks all changes.
+
+2️⃣ git add .
+
+👉 Adds all files in the current folder to the staging area.
+This tells Git which files you want to include in the next commit.
+
+3️⃣ git commit -m "first commit"
+
+👉 Saves (commits) the staged files permanently to the Git history.
+"first commit" is just a message describing the change.
+
+4️⃣ git branch -M main
+
+👉 Renames the current branch to main.
+-M forces the rename if a branch already exists.
+
+📌 Modern Git uses main instead of master.
+
+5️⃣ git remote add origin https://github.com/Vanshika1239/SpringBoot.git
+
+👉 Connects your local repository to a remote GitHub repository.
+origin is the short name for the GitHub URL.
+
+6️⃣ git push -u origin main
+
+👉 Uploads your local main branch to GitHub.
+
+-u sets the upstream branch
+
+After this, you can simply use:
+
+git push

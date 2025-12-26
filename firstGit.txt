@@ -1,1 +1,15 @@
-Hello world
+Git Command:
+
+1.git init
+2. git status
+3.git add origin https://github.com/Vanshika1239/SpringBoot.git
+4.git add origin
+5.git remote add origin https://github.com/Vanshika1239/SpringBoot.git
+6.git status
+7.git init
+8.pwd
+9.git init
+10. git add . 
+11 git commit -m "first git"
+12. git branch -M Master
+13. git push -u origin Master

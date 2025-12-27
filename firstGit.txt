@@ -2,38 +2,37 @@ GIT Command
 ----------------
 
 1️⃣ git init
-
-👉 Initializes a new Git repository in your project folder.
+Initializes a new Git repository in your project folder.
 Creates a hidden .git directory that tracks all changes.
 
 2️⃣ git add .
 
-👉 Adds all files in the current folder to the staging area.
+ Adds all files in the current folder to the staging area.
 This tells Git which files you want to include in the next commit.
 
 3️⃣ git commit -m "first commit"
 
-👉 Saves (commits) the staged files permanently to the Git history.
+ Saves (commits) the staged files permanently to the Git history.
 "first commit" is just a message describing the change.
 
 4️⃣ git branch -M main
 
-👉 Renames the current branch to main.
+ Renames the current branch to main.
 -M forces the rename if a branch already exists.
 
-📌 Modern Git uses main instead of master.
+ Modern Git uses main instead of master.
 
 5️⃣ git remote add origin https://github.com/Vanshika1239/SpringBoot.git
 
-👉 Connects your local repository to a remote GitHub repository.
+ Connects your local repository to a remote GitHub repository.
 origin is the short name for the GitHub URL.
 
 6️⃣ git push -u origin main
 
-👉 Uploads your local main branch to GitHub.
+ Uploads your local main branch to GitHub.
 
 -u sets the upstream branch
 
 After this, you can simply use:
 
-git push
+7) git push
